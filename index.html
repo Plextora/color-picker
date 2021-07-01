@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <script src="js/app.js" defer></script>
+        <link rel="stylesheet" href="css/styling.css">
+        <link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+        <meta charset="UTF-8">
+        <meta http-equiv="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>Color Picker | Made with ❤️ by Plextora</title>
+    </head>
+
+
+    <body>
+        
+        <div id="container">
+            <div id="message">
+                <p>hope you enjoy this little color picker i made for fun!</p>
+            </div>
+            <div id="author">
+                <p>- Plextora (The Developer of this website)</p>
+            </div>
+            <p>Red:</p>
+            <input type="range" name="red" id="red" min="0" max="255"
+            value="255" oninput="myColor()">
+            <p>Green:</p>
+            <input type="range" name="green" id="green" min="0" max="255"
+            value="255" oninput="myColor()">
+            <p>Blue:</p>
+            <input type="range" name="blue" id="blue" min="0" max="255"
+            value="255" oninput="myColor()">
+            <div id="rgbCode">
+                rgb(255, 255, 255)
+            </div>
+        </div>
+
+    </body>
+</html>

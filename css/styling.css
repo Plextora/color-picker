@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Nova Flat';
+}
+
+#container {
+    background: #a38b8baf;
+    color: white;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+}
+
+#message {
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#author {
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rgbCode {
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#red::-webkit-slider-runnable-track {
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, black, red);
+}
+
+#red::-webkit-slider-thumb {
+    margin-top: -2.5px;
+    cursor: pointer;
+}
+
+#green::-webkit-slider-thumb {
+    margin-top: -2.5px;
+    cursor: pointer;
+}
+
+#green::-webkit-slider-runnable-track {
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, black, green);
+}
+
+#blue::-webkit-slider-thumb {
+    margin-top: -2.5px;
+    cursor: pointer;
+}
+
+#blue::-webkit-slider-runnable-track {
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, black, blue);
+}
